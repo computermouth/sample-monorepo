@@ -4,7 +4,7 @@ static_sites:
 - name: frontend
   environment_slug: html
   github:
-    repo: techswarn/sample-monorepo
+    repo: computermouth/sample-monorepo
     branch: main
     deploy_on_push: true
   source_dir: frontend
@@ -15,7 +15,7 @@ static_sites:
 
 - name: landing
   github:
-    repo: techswarn/sample-monorepo
+    repo: computermouth/sample-monorepo
     branch: main
     deploy_on_push: true
   source_dir: landing
@@ -29,7 +29,7 @@ services:
 - name: api
   environment_slug: go
   github:
-    repo: techswarn/sample-monorepo
+    repo: computermouth/sample-monorepo
     branch: main
     deploy_on_push: true
   source_dir: api
