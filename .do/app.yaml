@@ -44,4 +44,4 @@ services:
   source_dir: docapi
   dockerfile_path: docapi/Dockerfile
   routes:
-  - path: /docapi
+  - path: /doc
