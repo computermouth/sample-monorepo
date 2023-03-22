@@ -35,3 +35,13 @@ services:
   source_dir: api
   routes:
   - path: /api
+
+- name: docapi
+  github:
+    repo: computermouth/sample-monorepo
+    branch: main
+    deploy_on_push: true
+  source_dir: docapi
+  dockerfile_path: docapi/Dockerfile
+  routes:
+  - path: /docapi
