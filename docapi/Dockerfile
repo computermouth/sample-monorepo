@@ -1,5 +1,6 @@
 FROM golang:1.19-alpine
 
+RUN mkdir /api
 COPY go.mod /api
 COPY main.go /api
 WORKDIR /api
